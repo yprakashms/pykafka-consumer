@@ -1,1 +1,1 @@
-fastapi
+confluent-kafka==2.2.0

@@ -1,0 +1,3 @@
+KAFKA_BOOTSTRAP_SERVERS = "localhost:9092"
+KAFKA_TOPIC = "test"
+KAFKA_CONSUMER_GROUP = "group-2"
