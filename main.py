@@ -44,12 +44,6 @@ def create_consumer(offset='latest'):
     }
     consumer = _create_consumer(consumer_settings, KAFKA_TOPIC)
 
-    """
-    model_update_topic = get_property(MODEL_UPDATE_EVENTS_QUEUE, 'model_update_events', True)
-    consumer_settings['group.id'] = hostname
-    consumer_model_updates = _create_consumer(consumer_settings, model_update_topic)
-    return [consumer, consumer_model_updates] """
-
     return consumer
 
 
